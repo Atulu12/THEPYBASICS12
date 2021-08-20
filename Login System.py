@@ -29,7 +29,7 @@ class Login:
     def login_function(self):
          if self.txt_pass.get()==""or self.txt_user.get()=="":
              messagebox.showwarning("Warning","All Fields are needed",parent=self.root)
-         elif self.txt_pass.get()!="1234"or self.txt_user.get()!="atulya@.com":
+         elif self.txt_pass.get()!="1234"or self.txt_user.get()!="a@.com":
              messagebox.showerror("Error","Invalid",parent=self.root)
          else:messagebox.showinfo("Welcome",f"Welcome",parent=self.root)
 
